@@ -1,11 +1,8 @@
 let bandNumber = 1;
 
-const takeNumber = function() {
- 
-    /*
-        Write your awesome code here. See comments
-        below for what should be returned.
-    */
+const takeNumber = function(bandName) {
+  console.log(`${bandNumber}. ${bandName}`);
+  bandNumber++;
 };
 
 const scum = takeNumber("Galactic Scum");
@@ -15,3 +12,6 @@ console.log(scum);
 const under = takeNumber("Underdogs");
 console.log(under);
 // This should print "2. Underdogs" in the console
+
+const goat = takeNumber("NAS");
+console.log(goat);
