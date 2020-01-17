@@ -15,3 +15,6 @@ console.log(under);
 
 const goat = takeNumber("NAS");
 console.log(goat);
+
+const  lit= takeNumber("dababy")
+console.log(lit)
